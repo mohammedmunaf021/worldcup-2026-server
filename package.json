@@ -1,0 +1,25 @@
+{
+  "name": "worldcup-2026-server",
+  "version": "1.0.0",
+  "description": "World Cup 2026 Hub backend — predictions, leaderboard, fixture data proxy",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lowdb": "^1.0.0",
+    "node-cron": "^4.5.0",
+    "node-fetch": "^2.7.0"
+  }
+}
