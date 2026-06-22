@@ -4,9 +4,9 @@ import dotenv from "dotenv";
 import cron from "node-cron";
 import { db, initDb } from "./db.js";
 import { refreshFixtures, getCache } from "./fixtures.js";
-import predictionsRouter from "./routes/predictions.js";
-import leaderboardRouter from "./routes/leaderboard.js";
-import shootoutRouter from "./routes/shootout.js";
+import predictionsRouter from "./predictions.js";
+import leaderboardRouter from "./leaderboard.js";
+import shootoutRouter from "./shootout.js";
 
 dotenv.config();
 
