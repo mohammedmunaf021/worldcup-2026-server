@@ -2,11 +2,11 @@
   "name": "worldcup-2026-server",
   "version": "1.0.0",
   "description": "World Cup 2026 Hub backend — predictions, leaderboard, fixture data proxy",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "keywords": [],
   "author": "",
