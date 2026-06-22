@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { db } from "../db.js";
-import { getCache } from "../fixtures.js";
+import { db } from "./db.js";
+import { getCache } from "./fixtures.js";
 
 const router = Router();
 
